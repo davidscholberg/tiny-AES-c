@@ -1,3 +1,5 @@
+Forked from [kokke/tiny-AES-c](https://github.com/kokke/tiny-AES-c). The only change I've made is to move the headers into a separate include directory and give them more unique names to avoid collisions in other projects.
+
 ![CI](https://github.com/kokke/tiny-AES-c/workflows/CI/badge.svg)
 ### Tiny AES in C
 
