@@ -7,11 +7,11 @@ target_sources(${PROJECT_NAME}
     PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}/aes.c
     INTERFACE
-        ${CMAKE_CURRENT_LIST_DIR}/aes.h
-        ${CMAKE_CURRENT_LIST_DIR}/aes.hpp
+        ${CMAKE_CURRENT_LIST_DIR}/include/tiny-aes.h
+        ${CMAKE_CURRENT_LIST_DIR}/include/tiny-aes.hpp
 )
 
 target_include_directories(${PROJECT_NAME}
-    INTERFACE
-        ${CMAKE_CURRENT_LIST_DIR}
+    PUBLIC
+        ${CMAKE_CURRENT_LIST_DIR}/include
 )

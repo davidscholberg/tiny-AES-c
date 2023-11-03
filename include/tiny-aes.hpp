@@ -1,12 +1,12 @@
-#ifndef _AES_HPP_
-#define _AES_HPP_
+#ifndef _TINY_AES_HPP_
+#define _TINY_AES_HPP_
 
 #ifndef __cplusplus
 #error Do not include the hpp header in a c project!
 #endif //__cplusplus
 
 extern "C" {
-#include "aes.h"
+#include "tiny-aes.h"
 }
 
-#endif //_AES_HPP_
+#endif //_TINY_AES_HPP_

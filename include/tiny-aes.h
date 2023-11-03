@@ -1,5 +1,5 @@
-#ifndef _AES_H_
-#define _AES_H_
+#ifndef _TINY_AES_H_
+#define _TINY_AES_H_
 
 #include <stdint.h>
 #include <stddef.h>
@@ -88,4 +88,4 @@ void AES_CTR_xcrypt_buffer(struct AES_ctx* ctx, uint8_t* buf, size_t length);
 #endif // #if defined(CTR) && (CTR == 1)
 
 
-#endif // _AES_H_
+#endif // _TINY_AES_H_
